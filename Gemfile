@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+
+gem 'framework', '0.0.9'
+gem 'pg'
+gem 'minitest'
+gem 'minitest-reporters'
+gem 'minitest-around'
+gem 'minitest-focus'
+gem 'byebug'
+gem 'terminal-table'
