@@ -26,7 +26,7 @@ TEAMS
 
 Each team starts their boring working day at 9am.
 Each team has one developer and one awful QA engineer.
-QA engineers never work with developers from foreign cities (they can speak only their local language).
+Teams never cooperate with each other on a single task (they can speak only their local language, typical scrum).
 
 They have already estimated the time they gonna spend on each task:
 
