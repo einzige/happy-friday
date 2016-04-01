@@ -98,6 +98,11 @@ London  | 9am-12am   | 8am-11am | 4
 
 \- NO. Never.
 
+
+\- _What is the input format?_
+
+\- Don't ask. Just any: load from files, create instances in specs or fill out db with records... It should eventually lead you to two in memory lists: teams ans tasks.
+
 ## Questions?
 
-Call me maybe, скайп: zininserge
+Call me maybe, §k¥þê: zininserge
