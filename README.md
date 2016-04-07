@@ -1,15 +1,13 @@
 # Happy Friday
 
 It is Friday and it is time to push to production!
-CTO said, once we push to production we can go grab some beer.
-Our goal is to implement all the features ASAP and go hang out hard with our teammates.
+The CTO said, once we push to production we can go grab some beers.
+Our goal is to implement all the features ASAP and go party hard with our teammates.
 
 ## The task
 
 - Build an optimal schedule for a distributed development team for this Friday (see sample output at [the very bottom](#sample-output)).
 - Give a recommendation to improve their agile development process :)
-
-## Task description
 
 Given 3 teams:
 
@@ -28,7 +26,7 @@ Each team starts their boring working day at 9am.
 Each team has one developer and one awful QA engineer.
 Teams never cooperate with each other on a single task (they can speak only their local language, typical scrum).
 
-They have already estimated the time they gonna spend on each task:
+They have already estimated the time they are going to spend on each task:
 
 ```
 TASKS
@@ -42,9 +40,9 @@ TASKS
 ```
 
 But they haven't considered which team is gonna work on what.
-And of course underestimated tasks...
+And of course, underestimated tasks...
 
-All they absolutely sure about is their performance:
+All they are absolutely sure about is their performance:
 
 ```
 PERFORMANCE
@@ -52,13 +50,20 @@ PERFORMANCE
 Team    | Developers | QA
 -----------------------------------
 Moscow  | 1.0        | 0.5           - means that task№1 will actually take 2 hours of coding and 2 hours of testing
-Zagreb  | 0.25       | 0.25          - means that guys from Zagreb almost useless
+Zagreb  | 0.25       | 0.25          - means that guys from Zagreb are almost useless
 London  | 0.5        | 1.0
 -----------------------------------
 ```
 
 Help them distribute tasks between teams. They can't wait.
 The sooner features appear on production, the sooner everybody leaves the office!
+
+Important note: we don't care about human hours spent on the entire set of tasks, we just need all the tasks to be completed ASAP.
+
+
+## Sample input:
+
+https://gist.github.com/einzige/69a5af5a9df1a483c2745f604e4fe1ba
 
 ## Sample output:
 
@@ -78,7 +83,7 @@ London  | 9am-12am   | 8am-11am | 4
 ## Acceptance criteria
 
 - Code quality
-- Reasonable coverage
+- Reasonable test coverage
 - Correct results with any valid input (different teams/timezones, different set of tasks)
 - Optimal algorithms (no brute forces)
 
@@ -99,10 +104,11 @@ London  | 9am-12am   | 8am-11am | 4
 \- NO. Never.
 
 
-\- _What is the input format?_
+\- _What should I do?_
 
-\- Don't ask. Just any: load from files, create instances in specs or fill out db with records... It should eventually lead you to two in memory lists: teams ans tasks.
+\- Just assign tasks to teams the way it takes least time to finish them all.
 
 ## Questions?
 
-Call me maybe, §k¥þê: zininserge
+Ping your interviewer on Skype.
+
